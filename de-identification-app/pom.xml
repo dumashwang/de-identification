@@ -49,6 +49,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>${scala.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
@@ -153,7 +158,6 @@
 						<arg>-Xlint:-rawtypes</arg>
 						<!-- Some required third-party packages have deprecated methods -->
 						<arg>-Xlint:-deprecation</arg>
-						<arg>-Xlint:-options</arg>
 						<arg>-Werror</arg>
 					</compilerArgs>
 				</configuration>
