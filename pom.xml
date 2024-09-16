@@ -26,6 +26,7 @@
 	<version>${revision}</version>
 	<name>DeID</name>
 
+
     <licenses>
       <license>
         <name>Apache-2.0</name>
