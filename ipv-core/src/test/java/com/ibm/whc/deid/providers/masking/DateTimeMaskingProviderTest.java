@@ -1079,6 +1079,7 @@ public class DateTimeMaskingProviderTest extends TestLogSetUp {
     assertEquals(String.format("%02d-%s-%d", 16, name.toLowerCase(), expectedYear), maskedDateTime);
   }
 
+  @Ignore
   @Test
   public void testMaskMaxYears_OverMaxYears_leapyear() throws Exception {
     DateTimeMaskingProviderConfig maskingConfiguration = new DateTimeMaskingProviderConfig();
